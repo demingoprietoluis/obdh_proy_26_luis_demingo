@@ -1,0 +1,19 @@
+ 
+ME_Processing_Resource Me_Regular_Processor leon3 Proc_Res_Canvas 15 15 
+ME_Timer Me_System_Timer leon3 Proc_Res_Canvas 282 -1 
+ME_Scheduler Me_Primary_Scheduler rtems Proc_Res_Canvas 401 136 
+ME_Scheduler Me_Primary_Scheduler rtems Sched_Server_Canvas 324 31 
+ME_Scheduling_Server Me_Server tcmanager Sched_Server_Canvas 15 15 
+ME_Scheduling_Server Me_Server hk_fdirmng Sched_Server_Canvas 628 27 
+ME_Scheduling_Server Me_Server bkgtcerec Sched_Server_Canvas 18 171 
+ME_Scheduling_Server Me_Server irq18handler Sched_Server_Canvas 277 225 
+ME_Scheduling_Server Me_Server irq18bottonhalftask Sched_Server_Canvas 165 15 
+ME_Scheduling_Server Me_Server dronemng Sched_Server_Canvas 795 15 
+ME_Shared_Resource Me_Priority_Inheritance_Resource sc_channel_ts Shared_Res_Canvas 15 15 
+ME_Operation Me_Simple_Operation ffligthctrlalgorithm Operation_Canvas 49 13 
+ME_Operation Me_Simple_Operation fprognextctrl Operation_Canvas 423 8 
+ME_Operation Me_Composite_Operation evfligthctrl Operation_Canvas 231 162 
+ME_Transaction Me_Regular_Transaction evfligthctrl Transaction_Canvas 133 94 
+ME_Link Me_External_Link entrada,evfligthctrl evfligthctrl 15 15 
+ME_Link Me_Internal_Link deadline,evfligthctrl evfligthctrl 460 127 
+ME_Event_Handler Me_Simple_Event_Handler 1,evfligthctrl evfligthctrl 84 126 
